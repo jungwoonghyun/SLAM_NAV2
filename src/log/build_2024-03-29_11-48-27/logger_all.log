@@ -1,0 +1,734 @@
+[1.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.130s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7de70bef6620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7de70bef64d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7de70bef64d0>>)
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.189s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robot/robot_ws/src'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extension 'ignore_ament_install'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extensions ['colcon_pkg']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extension 'colcon_pkg'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extensions ['colcon_meta']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extension 'colcon_meta'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extensions ['ros']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(car_odom) by extension 'ros'
+[1.208s] DEBUG:colcon.colcon_core.package_identification:Package 'car_odom' with type 'ros.ament_cmake' and name 'car_odom'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extension 'ignore_ament_install'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extensions ['colcon_pkg']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extension 'colcon_pkg'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extensions ['colcon_meta']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extension 'colcon_meta'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extensions ['ros']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(clustering_cpp) by extension 'ros'
+[1.210s] DEBUG:colcon.colcon_core.package_identification:Package 'clustering_cpp' with type 'ros.ament_cmake' and name 'clustering_cpp'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(ld08_driver) by extension 'ros'
+[1.212s] DEBUG:colcon.colcon_core.package_identification:Package 'ld08_driver' with type 'ros.ament_cmake' and name 'ld08_driver'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ignore'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ignore_ament_install'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['colcon_pkg']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'colcon_meta'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['ros']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ros'
+[1.213s] DEBUG:colcon.colcon_core.package_identification:Package 'ldlidar_stl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extension 'ignore'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extension 'ignore_ament_install'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extensions ['colcon_pkg']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extension 'colcon_pkg'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extensions ['colcon_meta']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extension 'colcon_meta'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extensions ['ros']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(my_first_ros_rclcpp_pkg) by extension 'ros'
+[1.214s] DEBUG:colcon.colcon_core.package_identification:Package 'my_first_ros_rclcpp_pkg' with type 'ros.ament_cmake' and name 'my_first_ros_rclcpp_pkg'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extensions ['ignore', 'ignore_ament_install']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extension 'ignore'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extension 'ignore_ament_install'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extensions ['colcon_pkg']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extension 'colcon_pkg'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extensions ['colcon_meta']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extension 'colcon_meta'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extensions ['ros']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_test_utils-master) by extension 'ros'
+[1.215s] DEBUG:colcon.colcon_core.package_identification:Package 'nav2_test_utils-master' with type 'ros.ament_cmake' and name 'nav2_test_utils'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'ignore'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'colcon_pkg'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['colcon_meta']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'colcon_meta'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['ros']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'ros'
+[1.217s] DEBUG:colcon.colcon_core.package_identification:Package 'pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extensions ['ignore', 'ignore_ament_install']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extension 'ignore'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extension 'ignore_ament_install'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extensions ['colcon_pkg']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extension 'colcon_pkg'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extensions ['colcon_meta']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extension 'colcon_meta'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extensions ['ros']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(safeway_robot_controll_packet_RS485) by extension 'ros'
+[1.218s] DEBUG:colcon.colcon_core.package_identification:Package 'safeway_robot_controll_packet_RS485' with type 'ros.ament_cmake' and name 'safeway_robot_controll_packet_RS485'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'ignore'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'ignore_ament_install'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['colcon_pkg']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'colcon_pkg'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['colcon_meta']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'colcon_meta'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extensions ['ros']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox) by extension 'ros'
+[1.220s] DEBUG:colcon.colcon_core.package_identification:Package 'slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'ignore'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'ignore_ament_install'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['colcon_pkg']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'colcon_pkg'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['colcon_meta']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'colcon_meta'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['ros']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'ros'
+[1.221s] DEBUG:colcon.colcon_core.package_identification:Package 'urdf_tutorial' with type 'ros.ament_python' and name 'urdf_tutorial'
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/robot/robot_ws/install
+[1.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/robot/ros2_ws/install
+[1.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/robot/turtlebot3_ws/install
+[1.416s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/humble
+[1.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.524s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'slam_toolbox' is in: /home/robot/robot_ws/install/slam_toolbox, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding slam_toolbox
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'cmake_args' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'cmake_target' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'cmake_clean_first' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'cmake_force_configure' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'ament_cmake_args' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'car_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.541s] DEBUG:colcon.colcon_core.verb:Building package 'car_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/car_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/car_odom', 'merge_install': False, 'path': '/home/robot/robot_ws/src/car_odom', 'symlink_install': False, 'test_result_base': None}
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'cmake_args' from command line to 'None'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'cmake_target' from command line to 'None'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'clustering_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.557s] DEBUG:colcon.colcon_core.verb:Building package 'clustering_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/clustering_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/clustering_cpp', 'merge_install': False, 'path': '/home/robot/robot_ws/src/clustering_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.573s] DEBUG:colcon.colcon_core.verb:Building package 'ld08_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/ld08_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/ld08_driver', 'merge_install': False, 'path': '/home/robot/robot_ws/src/ld08_driver', 'symlink_install': False, 'test_result_base': None}
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.588s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_stl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/ldlidar_stl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/ldlidar_stl_ros2', 'merge_install': False, 'path': '/home/robot/robot_ws/src/ldlidar_stl_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_args' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_target' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.603s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_ros_rclcpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg', 'merge_install': False, 'path': '/home/robot/robot_ws/src/my_first_ros_rclcpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'cmake_args' from command line to 'None'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'cmake_target' from command line to 'None'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'cmake_clean_first' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'cmake_force_configure' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'ament_cmake_args' from command line to 'None'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'nav2_test_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.618s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_test_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/nav2_test_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/nav2_test_utils', 'merge_install': False, 'path': '/home/robot/robot_ws/src/nav2_test_utils-master', 'symlink_install': False, 'test_result_base': None}
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.633s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/robot/robot_ws/src/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'cmake_target' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'cmake_clean_cache' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'cmake_clean_first' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'cmake_force_configure' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'ament_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'catkin_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'safeway_robot_controll_packet_RS485' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.648s] DEBUG:colcon.colcon_core.verb:Building package 'safeway_robot_controll_packet_RS485' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485', 'merge_install': False, 'path': '/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485', 'symlink_install': False, 'test_result_base': None}
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.663s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.663s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/slam_toolbox', 'merge_install': False, 'path': '/home/robot/robot_ws/src/slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_args' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.678s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/robot_ws/src/build/urdf_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/robot_ws/src/install/urdf_tutorial', 'merge_install': False, 'path': '/home/robot/robot_ws/src/urdf_tutorial', 'symlink_install': False, 'test_result_base': None}
+[1.693s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.708s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/car_odom' with build type 'ament_cmake'
+[1.708s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/car_odom'
+[1.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.832s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/clustering_cpp' with build type 'ament_cmake'
+[1.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/clustering_cpp'
+[1.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.938s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/ld08_driver' with build type 'ament_cmake'
+[1.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/ld08_driver'
+[1.955s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.037s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/ldlidar_stl_ros2' with build type 'ament_cmake'
+[2.037s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/ldlidar_stl_ros2'
+[2.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/car_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/car_odom -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/car_odom
+[2.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/clustering_cpp -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/clustering_cpp
+[2.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/ld08_driver
+[2.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/ldlidar_stl_ros2
+[5.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/ld08_driver
+[5.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/ld08_driver -- -j4 -l4
+[5.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/ldlidar_stl_ros2
+[5.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/ldlidar_stl_ros2 -- -j4 -l4
+[6.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/car_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/car_odom -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/car_odom
+[6.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/car_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/car_odom -- -j4 -l4
+[16.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/clustering_cpp -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/clustering_cpp
+[16.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/clustering_cpp -- -j4 -l4
+[18.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/ld08_driver -- -j4 -l4
+[18.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/ldlidar_stl_ros2 -- -j4 -l4
+[18.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/ld08_driver
+[18.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/ldlidar_stl_ros2
+[18.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[18.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/ldlidar_stl_ros2
+[18.514s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2' for CMake module files
+[18.515s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2' for CMake config files
+[18.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[18.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[18.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[18.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[18.538s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/lib'
+[18.539s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/bin'
+[18.539s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[18.539s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[18.539s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/bin'
+[18.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[18.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[18.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[18.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[18.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[18.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[18.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[18.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/ld08_driver
+[18.591s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver' for CMake module files
+[18.592s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver' for CMake config files
+[18.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[18.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[18.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[18.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[18.615s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/lib'
+[18.615s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/bin'
+[18.615s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[18.616s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/lib/python3.10/site-packages'
+[18.616s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/bin'
+[18.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.ps1'
+[18.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.dsv'
+[18.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.sh'
+[18.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.bash'
+[18.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.zsh'
+[18.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[18.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[18.716s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2' for CMake module files
+[18.717s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2' for CMake config files
+[18.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[18.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[18.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[18.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[18.741s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/lib'
+[18.741s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/bin'
+[18.741s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[18.741s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[18.742s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/bin'
+[18.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[18.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[18.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[18.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[18.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[18.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[18.775s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/my_first_ros_rclcpp_pkg' with build type 'ament_cmake'
+[18.776s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/my_first_ros_rclcpp_pkg'
+[18.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[18.977s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver' for CMake module files
+[18.978s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver' for CMake config files
+[18.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[19.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[19.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[19.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[19.001s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/lib'
+[19.002s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/bin'
+[19.002s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[19.002s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/lib/python3.10/site-packages'
+[19.002s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/ld08_driver/bin'
+[19.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.ps1'
+[19.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.dsv'
+[19.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.sh'
+[19.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.bash'
+[19.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.zsh'
+[19.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[19.028s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/nav2_test_utils-master' with build type 'ament_cmake'
+[19.028s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/nav2_test_utils-master'
+[19.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg
+[19.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/nav2_test_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/nav2_test_utils-master -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/nav2_test_utils
+[23.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg
+[23.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg -- -j4 -l4
+[25.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/nav2_test_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/nav2_test_utils-master -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/nav2_test_utils
+[25.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/nav2_test_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/nav2_test_utils -- -j4 -l4
+[28.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/car_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/car_odom -- -j4 -l4
+[28.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/car_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/car_odom
+[28.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_odom)
+[28.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/car_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/car_odom
+[28.754s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom' for CMake module files
+[28.755s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom' for CMake config files
+[28.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_odom', 'cmake_prefix_path')
+[28.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/car_odom/share/car_odom/hook/cmake_prefix_path.ps1'
+[28.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/car_odom/share/car_odom/hook/cmake_prefix_path.dsv'
+[28.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/car_odom/share/car_odom/hook/cmake_prefix_path.sh'
+[28.864s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/lib'
+[28.864s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/bin'
+[28.864s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/lib/pkgconfig/car_odom.pc'
+[28.864s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/lib/python3.10/site-packages'
+[28.865s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/bin'
+[28.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.ps1'
+[28.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.dsv'
+[28.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.sh'
+[28.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.bash'
+[28.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.zsh'
+[28.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/car_odom/share/colcon-core/packages/car_odom)
+[29.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_odom)
+[29.249s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom' for CMake module files
+[29.250s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom' for CMake config files
+[29.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_odom', 'cmake_prefix_path')
+[29.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/car_odom/share/car_odom/hook/cmake_prefix_path.ps1'
+[29.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/car_odom/share/car_odom/hook/cmake_prefix_path.dsv'
+[29.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/car_odom/share/car_odom/hook/cmake_prefix_path.sh'
+[29.320s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/lib'
+[29.320s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/bin'
+[29.321s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/lib/pkgconfig/car_odom.pc'
+[29.321s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/lib/python3.10/site-packages'
+[29.321s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/car_odom/bin'
+[29.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.ps1'
+[29.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.dsv'
+[29.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.sh'
+[29.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.bash'
+[29.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/car_odom/share/car_odom/package.zsh'
+[29.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/car_odom/share/colcon-core/packages/car_odom)
+[29.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/pointcloud_to_laserscan' with build type 'ament_cmake'
+[29.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/pointcloud_to_laserscan'
+[29.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/pointcloud_to_laserscan
+[38.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/pointcloud_to_laserscan
+[38.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/pointcloud_to_laserscan -- -j4 -l4
+[44.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg -- -j4 -l4
+[44.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/nav2_test_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/nav2_test_utils -- -j4 -l4
+[44.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg
+[44.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/nav2_test_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/nav2_test_utils
+[44.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_ros_rclcpp_pkg)
+[44.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg
+[44.797s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg' for CMake module files
+[44.798s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg' for CMake config files
+[44.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_ros_rclcpp_pkg', 'cmake_prefix_path')
+[44.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/hook/cmake_prefix_path.ps1'
+[44.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/hook/cmake_prefix_path.dsv'
+[44.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/hook/cmake_prefix_path.sh'
+[44.826s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib'
+[44.826s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/bin'
+[44.826s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/pkgconfig/my_first_ros_rclcpp_pkg.pc'
+[44.826s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/python3.10/site-packages'
+[44.827s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/bin'
+[44.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.ps1'
+[44.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv'
+[44.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.sh'
+[44.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.bash'
+[44.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.zsh'
+[44.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/colcon-core/packages/my_first_ros_rclcpp_pkg)
+[44.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_test_utils)
+[44.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/nav2_test_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/nav2_test_utils
+[44.887s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils' for CMake module files
+[44.888s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils' for CMake config files
+[44.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_test_utils', 'cmake_prefix_path')
+[44.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/hook/cmake_prefix_path.ps1'
+[44.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/hook/cmake_prefix_path.dsv'
+[44.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/hook/cmake_prefix_path.sh'
+[44.925s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/lib'
+[44.926s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/bin'
+[44.926s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/lib/pkgconfig/nav2_test_utils.pc'
+[44.926s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/lib/python3.10/site-packages'
+[44.926s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/bin'
+[44.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.ps1'
+[44.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.dsv'
+[44.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.sh'
+[44.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.bash'
+[44.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.zsh'
+[44.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/nav2_test_utils/share/colcon-core/packages/nav2_test_utils)
+[44.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_ros_rclcpp_pkg)
+[45.010s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg' for CMake module files
+[45.011s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg' for CMake config files
+[45.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_ros_rclcpp_pkg', 'cmake_prefix_path')
+[45.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/hook/cmake_prefix_path.ps1'
+[45.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/hook/cmake_prefix_path.dsv'
+[45.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/hook/cmake_prefix_path.sh'
+[45.041s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib'
+[45.041s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/bin'
+[45.041s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/pkgconfig/my_first_ros_rclcpp_pkg.pc'
+[45.041s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/python3.10/site-packages'
+[45.042s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/bin'
+[45.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.ps1'
+[45.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv'
+[45.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.sh'
+[45.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.bash'
+[45.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.zsh'
+[45.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/colcon-core/packages/my_first_ros_rclcpp_pkg)
+[45.075s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485' with build type 'ament_cmake'
+[45.075s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485'
+[45.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[45.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[45.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_test_utils)
+[45.345s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils' for CMake module files
+[45.346s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils' for CMake config files
+[45.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_test_utils', 'cmake_prefix_path')
+[45.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/hook/cmake_prefix_path.ps1'
+[45.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/hook/cmake_prefix_path.dsv'
+[45.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/hook/cmake_prefix_path.sh'
+[45.372s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/lib'
+[45.372s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/bin'
+[45.373s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/lib/pkgconfig/nav2_test_utils.pc'
+[45.373s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/lib/python3.10/site-packages'
+[45.373s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/nav2_test_utils/bin'
+[45.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.ps1'
+[45.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.dsv'
+[45.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.sh'
+[45.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.bash'
+[45.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/nav2_test_utils/share/nav2_test_utils/package.zsh'
+[45.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/nav2_test_utils/share/colcon-core/packages/nav2_test_utils)
+[45.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/robot_ws/src/slam_toolbox' with build type 'ament_cmake'
+[45.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/robot_ws/src/slam_toolbox'
+[45.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[45.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[45.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/safeway_robot_controll_packet_RS485 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485
+[45.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/slam_toolbox
+[48.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/safeway_robot_controll_packet_RS485 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485
+[48.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485 -- -j4 -l4
+[51.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/clustering_cpp -- -j4 -l4
+[51.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/clustering_cpp
+[51.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(clustering_cpp)
+[51.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/clustering_cpp
+[51.514s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp' for CMake module files
+[51.515s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp' for CMake config files
+[51.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('clustering_cpp', 'cmake_prefix_path')
+[51.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/hook/cmake_prefix_path.ps1'
+[51.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/hook/cmake_prefix_path.dsv'
+[51.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/hook/cmake_prefix_path.sh'
+[51.540s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/lib'
+[51.541s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/bin'
+[51.541s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/lib/pkgconfig/clustering_cpp.pc'
+[51.541s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/lib/python3.10/site-packages'
+[51.541s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/bin'
+[51.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.ps1'
+[51.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.dsv'
+[51.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.sh'
+[51.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.bash'
+[51.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.zsh'
+[51.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/clustering_cpp/share/colcon-core/packages/clustering_cpp)
+[51.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(clustering_cpp)
+[51.652s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp' for CMake module files
+[51.652s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp' for CMake config files
+[51.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('clustering_cpp', 'cmake_prefix_path')
+[51.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/hook/cmake_prefix_path.ps1'
+[51.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/hook/cmake_prefix_path.dsv'
+[51.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/hook/cmake_prefix_path.sh'
+[51.680s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/lib'
+[51.680s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/bin'
+[51.680s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/lib/pkgconfig/clustering_cpp.pc'
+[51.680s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/lib/python3.10/site-packages'
+[51.681s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/clustering_cpp/bin'
+[51.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.ps1'
+[51.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.dsv'
+[51.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.sh'
+[51.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.bash'
+[51.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.zsh'
+[51.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/clustering_cpp/share/colcon-core/packages/clustering_cpp)
+[51.719s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robot/robot_ws/src/urdf_tutorial' with build type 'ament_python'
+[51.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'ament_prefix_path')
+[51.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/hook/ament_prefix_path.ps1'
+[51.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/hook/ament_prefix_path.dsv'
+[51.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/hook/ament_prefix_path.sh'
+[51.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[51.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[52.810s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robot/robot_ws/src/urdf_tutorial'
+[52.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[52.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[53.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/urdf_tutorial': PYTHONPATH=/home/robot/robot_ws/src/build/urdf_tutorial/prefix_override:/home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/urdf_tutorial build --build-base /home/robot/robot_ws/src/build/urdf_tutorial/build install --record /home/robot/robot_ws/src/build/urdf_tutorial/install.log --single-version-externally-managed
+[54.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/urdf_tutorial' returned '0': PYTHONPATH=/home/robot/robot_ws/src/build/urdf_tutorial/prefix_override:/home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/urdf_tutorial build --build-base /home/robot/robot_ws/src/build/urdf_tutorial/build install --record /home/robot/robot_ws/src/build/urdf_tutorial/install.log --single-version-externally-managed
+[54.458s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/urdf_tutorial' for CMake module files
+[54.459s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/urdf_tutorial' for CMake config files
+[54.460s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/urdf_tutorial/lib'
+[54.460s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/urdf_tutorial/bin'
+[54.460s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[54.461s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages'
+[54.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial', 'pythonpath')
+[54.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/hook/pythonpath.ps1'
+[54.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/hook/pythonpath.dsv'
+[54.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/hook/pythonpath.sh'
+[54.487s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/urdf_tutorial/bin'
+[54.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[54.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[54.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[54.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[54.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[54.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[54.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[56.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/slam_toolbox
+[56.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/slam_toolbox -- -j4 -l4
+[71.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485 -- -j4 -l4
+[71.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485
+[71.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(safeway_robot_controll_packet_RS485)
+[71.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/safeway_robot_controll_packet_RS485
+[71.497s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485' for CMake module files
+[71.497s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485' for CMake config files
+[71.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('safeway_robot_controll_packet_RS485', 'cmake_prefix_path')
+[71.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/hook/cmake_prefix_path.ps1'
+[71.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/hook/cmake_prefix_path.dsv'
+[71.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/hook/cmake_prefix_path.sh'
+[71.530s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/lib'
+[71.530s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/bin'
+[71.530s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/lib/pkgconfig/safeway_robot_controll_packet_RS485.pc'
+[71.531s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/lib/python3.10/site-packages'
+[71.531s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/bin'
+[71.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.ps1'
+[71.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.dsv'
+[71.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.sh'
+[71.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.bash'
+[71.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.zsh'
+[71.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/colcon-core/packages/safeway_robot_controll_packet_RS485)
+[71.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(safeway_robot_controll_packet_RS485)
+[71.700s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485' for CMake module files
+[71.701s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485' for CMake config files
+[71.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('safeway_robot_controll_packet_RS485', 'cmake_prefix_path')
+[71.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/hook/cmake_prefix_path.ps1'
+[71.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/hook/cmake_prefix_path.dsv'
+[71.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/hook/cmake_prefix_path.sh'
+[71.734s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/lib'
+[71.734s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/bin'
+[71.734s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/lib/pkgconfig/safeway_robot_controll_packet_RS485.pc'
+[71.735s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/lib/python3.10/site-packages'
+[71.735s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/bin'
+[71.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.ps1'
+[71.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.dsv'
+[71.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.sh'
+[71.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.bash'
+[71.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.zsh'
+[71.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/safeway_robot_controll_packet_RS485/share/colcon-core/packages/safeway_robot_controll_packet_RS485)
+[95.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/pointcloud_to_laserscan -- -j4 -l4
+[95.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/pointcloud_to_laserscan
+[95.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[95.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/pointcloud_to_laserscan
+[95.751s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan' for CMake module files
+[95.752s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan' for CMake config files
+[95.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[95.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[95.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[95.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[95.812s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/lib'
+[95.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[95.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[95.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[95.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[95.852s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/bin'
+[95.852s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[95.853s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[95.853s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/bin'
+[95.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[95.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[95.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[95.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[95.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[95.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[95.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[95.995s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan' for CMake module files
+[95.996s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan' for CMake config files
+[95.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[96.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[96.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[96.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[96.021s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/lib'
+[96.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[96.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[96.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[96.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[96.043s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/bin'
+[96.043s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[96.043s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[96.043s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/bin'
+[96.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[96.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[96.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[96.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[96.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[96.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[303.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/slam_toolbox -- -j4 -l4
+[303.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/robot_ws/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/slam_toolbox
+[304.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[304.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/robot_ws/src/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/slam_toolbox
+[304.068s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox' for CMake module files
+[304.069s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox' for CMake config files
+[304.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[304.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[304.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[304.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[304.090s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/lib'
+[304.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[304.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[304.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[304.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[304.112s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/bin'
+[304.112s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[304.112s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/lib/python3.10/site-packages'
+[304.113s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/bin'
+[304.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[304.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[304.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.sh'
+[304.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.bash'
+[304.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[304.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[304.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[304.511s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox' for CMake module files
+[304.512s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox' for CMake config files
+[304.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[304.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[304.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[304.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[304.531s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/lib'
+[304.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[304.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[304.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[304.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[304.550s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/bin'
+[304.550s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[304.551s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/lib/python3.10/site-packages'
+[304.551s] Level 1:colcon.colcon_core.environment:checking '/home/robot/robot_ws/src/install/slam_toolbox/bin'
+[304.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[304.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[304.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.sh'
+[304.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.bash'
+[304.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/robot_ws/src/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[304.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/robot_ws/src/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[304.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[304.573s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[304.573s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[304.573s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[304.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[304.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[304.605s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[304.679s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[304.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/robot_ws/src/install/local_setup.ps1'
+[304.709s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/robot_ws/src/install/_local_setup_util_ps1.py'
+[304.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/robot_ws/src/install/setup.ps1'
+[304.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/robot_ws/src/install/local_setup.sh'
+[304.737s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/robot_ws/src/install/_local_setup_util_sh.py'
+[304.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/robot_ws/src/install/setup.sh'
+[304.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/robot_ws/src/install/local_setup.bash'
+[304.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/robot_ws/src/install/setup.bash'
+[304.778s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/robot_ws/src/install/local_setup.zsh'
+[304.779s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/robot_ws/src/install/setup.zsh'

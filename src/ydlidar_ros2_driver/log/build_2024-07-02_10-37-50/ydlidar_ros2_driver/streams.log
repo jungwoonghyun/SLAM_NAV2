@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': /usr/bin/cmake /home/robot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver
+[0.026s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.201s] Traceback (most recent call last):
+[0.201s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.201s]     from ament_package.templates import get_environment_hook_template_path
+[0.201s] ModuleNotFoundError: No module named 'ament_package'
+[0.218s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.218s]   execute_process(/usr/bin/python3
+[0.219s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.219s]   /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver/ament_cmake_package_templates/templates.cmake)
+[0.219s]   returned error code 1
+[0.220s] Call Stack (most recent call first):
+[0.220s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.220s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.221s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.221s]   CMakeLists.txt:15 (find_package)
+[0.221s] 
+[0.221s] [0m
+[0.222s] -- Configuring incomplete, errors occurred!
+[0.222s] See also "/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[0.222s] Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '1': /usr/bin/cmake /home/robot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver

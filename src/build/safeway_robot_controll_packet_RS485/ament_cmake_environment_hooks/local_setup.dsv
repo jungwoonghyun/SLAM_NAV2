@@ -1,0 +1,2 @@
+source;share/safeway_robot_controll_packet_RS485/environment/ament_prefix_path.sh
+source;share/safeway_robot_controll_packet_RS485/environment/path.sh

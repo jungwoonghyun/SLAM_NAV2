@@ -1,0 +1,77 @@
+[0.212s] Invoking command in '/home/robot/robot_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/ld08_driver
+[0.379s] -- The C compiler identification is GNU 11.4.0
+[0.456s] -- The CXX compiler identification is GNU 11.4.0
+[0.475s] -- Detecting C compiler ABI info
+[0.634s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.668s] -- Detecting C compile features
+[0.672s] -- Detecting C compile features - done
+[0.683s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.871s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.872s] -- Detecting CXX compile features
+[0.873s] -- Detecting CXX compile features - done
+[0.880s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.289s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.485s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.608s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.627s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.646s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.850s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.860s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.014s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.056s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.128s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.150s] -- Looking for pthread.h
+[2.263s] -- Looking for pthread.h - found
+[2.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.400s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.404s] -- Found Threads: TRUE  
+[2.821s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.090s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[3.103s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.255s] -- Configuring done
+[3.272s] -- Generating done
+[3.276s] -- Build files have been written to: /home/robot/robot_ws/src/build/ld08_driver
+[3.290s] Invoked command in '/home/robot/robot_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/ld08_driver
+[3.291s] Invoking command in '/home/robot/robot_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/ld08_driver -- -j4 -l4
+[3.380s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[3.391s] [ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[3.411s] [ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[3.420s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[7.039s] [ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[14.852s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[14.852s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/transform.cpp:30:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.853s]    30 | SlTransform::SlTransform(LDVersion version, [01;35m[Kbool to_right_hand[m[K)
+[14.853s]       |                                             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[15.936s] [100%] [32m[1mLinking CXX executable ld08_driver[0m
+[16.411s] [100%] Built target ld08_driver
+[16.436s] Invoked command in '/home/robot/robot_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/ld08_driver -- -j4 -l4
+[16.501s] Invoking command in '/home/robot/robot_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/ld08_driver
+[16.510s] -- Install configuration: ""
+[16.511s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/launch
+[16.512s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/launch/__pycache__
+[16.513s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/launch/__pycache__/ld08.launch.cpython-310.pyc
+[16.515s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[16.518s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/lib/ld08_driver/ld08_driver
+[16.538s] -- Set runtime path of "/home/robot/robot_ws/src/install/ld08_driver/lib/ld08_driver/ld08_driver" to ""
+[16.538s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[16.538s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[16.539s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/environment/path.sh
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.bash
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.sh
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.dsv
+[16.544s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[16.545s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.545s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.545s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[16.545s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[16.545s] -- Installing: /home/robot/robot_ws/src/install/ld08_driver/share/ld08_driver/package.xml
+[16.632s] Invoked command in '/home/robot/robot_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/ld08_driver

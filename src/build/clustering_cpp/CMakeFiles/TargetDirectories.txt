@@ -1,0 +1,10 @@
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/uninstall.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/clustering_cpp_uninstall.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/clustering.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/test.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/edit_cache.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/rebuild_cache.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/list_install_components.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/install.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/install/local.dir
+/home/robot/robot_ws/src/build/clustering_cpp/CMakeFiles/install/strip.dir

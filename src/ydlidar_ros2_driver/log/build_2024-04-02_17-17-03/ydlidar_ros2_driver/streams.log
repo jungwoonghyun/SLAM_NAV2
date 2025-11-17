@@ -1,0 +1,267 @@
+[0.105s] Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver
+[0.223s] -- The C compiler identification is GNU 11.4.0
+[0.307s] -- The CXX compiler identification is GNU 11.4.0
+[0.317s] -- Detecting C compiler ABI info
+[0.392s] -- Detecting C compiler ABI info - done
+[0.401s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.406s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.707s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.773s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.834s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.911s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.921s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.936s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.087s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.093s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.216s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.247s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.316s] -- Looking for pthread.h
+[1.392s] -- Looking for pthread.h - found
+[1.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.471s] -- Found Threads: TRUE  
+[1.653s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.790s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.923s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.957s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.067s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.071s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.071s] -- Configured cppcheck include dirs: /home/robot/ydlidar_ros2_driver/src
+[2.071s] -- Configured cppcheck exclude dirs and/or files: 
+[2.075s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.076s] -- Configured cpplint exclude dirs and/or files: 
+[2.077s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.079s] -- Added test 'lint_cmake' to check CMake code style
+[2.081s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.087s] -- Added test 'uncrustify' to check C / C++ code style
+[2.087s] -- Configured uncrustify additional arguments: 
+[2.088s] -- Added test 'xmllint' to check XML markup files
+[2.090s] -- Configuring done
+[2.104s] -- Generating done
+[2.106s] -- Build files have been written to: /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver
+[2.116s] Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver
+[2.118s] Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j4 -l4
+[2.168s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[2.168s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[2.524s] In file included from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/v8stdint.h:142[m[K,
+[2.524s]                  from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:2[m[K,
+[2.524s]                  from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.524s]                  from [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.524s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:[m[K In function ‘[01m[Kbool ydlidar::core::base::fileExists(const string&)[m[K’:
+[2.524s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.524s]   183 |   struct stat info = {0[01;35m[K}[m[K;
+[2.524s]       |                        [01;35m[K^[m[K
+[2.524s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.525s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.526s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.526s] In file included from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:3[m[K,
+[2.526s]                  from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.526s]                  from [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.526s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:[m[K In static member function ‘[01m[Kstatic ydlidar::core::base::Thread ydlidar::core::base::Thread::createThread(thread_proc_t, void*)[m[K’:
+[2.526s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:55:42:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[2.526s]    55 |                                    NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+[2.526s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.526s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.526s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.527s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.527s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.527s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.527s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.527s]       |                                             [32m[K%lX[m[K
+[2.527s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.527s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.527s]       |                                             [01;35m[K~^[m[K
+[2.527s]       |                                              [01;35m[K|[m[K
+[2.527s]       |                                              [01;35m[Kunsigned int[m[K
+[2.527s]       |                                             [32m[K%lX[m[K
+[2.527s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.527s]       |             [32m[K~~~~~~~[m[K                           
+[2.527s]       |             [32m[K|[m[K
+[2.528s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.528s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.528s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.528s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.528s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.528s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.528s]       |                                         [32m[K%lX[m[K
+[2.528s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.528s]   147 | printf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.528s]       |                                                            [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.528s]       |                                                             [01;35m[K|[m[K                 [32m[K|[m[K
+[2.529s]       |                                                             [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.529s]       |                                                            [32m[K%lX[m[K
+[2.529s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.529s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.529s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.529s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.529s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.529s]       |                                       [32m[K%lX[m[K
+[2.681s] In file included from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:7[m[K,
+[2.682s]                  from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.682s]                  from [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.682s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:[m[K At global scope:
+[2.682s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:294:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::firmware_version[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.682s]   294 |   device_info di = {0[01;35m[K}[m[K;
+[2.682s]       |                      [01;35m[K^[m[K
+[2.682s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:294:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::hardware_version[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.682s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:294:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::serialnum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.693s] In file included from [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.693s]                  from [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.693s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual bool ydlidar::core::common::DriverInterface::getDeviceInfoEx(device_info&, int)[m[K’:
+[2.693s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:270:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.693s]   270 |         virtual bool getDeviceInfoEx(device_info &di, [01;35m[Kint type=EPT_Module[m[K)
+[2.693s]       |                                                       [01;35m[K~~~~^~~~~~~~~~~~~~~[m[K
+[2.693s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getScanFrequency(scan_frequency&, uint32_t)[m[K’:
+[2.693s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:318:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.694s]   318 |         virtual result_t getScanFrequency([01;35m[Kscan_frequency &frequency[m[K,
+[2.694s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.694s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:319:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.694s]   319 |                                           [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.694s]       |                                           [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.694s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAdd(scan_frequency&, uint32_t)[m[K’:
+[2.694s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:333:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.694s]   333 |         virtual result_t setScanFrequencyAdd([01;35m[Kscan_frequency &frequency[m[K,
+[2.694s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.694s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:334:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.694s]   334 |                                              [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.694s]       |                                              [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.695s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDis(scan_frequency&, uint32_t)[m[K’:
+[2.695s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:348:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.695s]   348 |         virtual result_t setScanFrequencyDis([01;35m[Kscan_frequency &frequency[m[K,
+[2.695s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.695s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:349:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.695s]   349 |                                              [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.695s]       |                                              [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.695s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAddMic(scan_frequency&, uint32_t)[m[K’:
+[2.695s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:363:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.695s]   363 |      virtual result_t setScanFrequencyAddMic([01;35m[Kscan_frequency &frequency[m[K,
+[2.695s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.696s] 
+[2.696s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:364:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.696s]   364 |                                                 [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.696s]       |                                                 [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.696s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDisMic(scan_frequency&, uint32_t)[m[K’:
+[2.696s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:378:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.696s]   378 |      virtual result_t setScanFrequencyDisMic([01;35m[Kscan_frequency &frequency[m[K,
+[2.696s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.696s] 
+[2.696s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:379:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.696s]   379 |                                                 [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.696s]       |                                                 [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.697s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getSamplingRate(sampling_rate&, uint32_t)[m[K’:
+[2.697s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:393:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.697s]   393 |         virtual result_t getSamplingRate([01;35m[Ksampling_rate &rate[m[K,
+[2.697s]       |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[2.697s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:394:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.697s]   394 |                                          [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.697s]       |                                          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.697s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setSamplingRate(sampling_rate&, uint32_t)[m[K’:
+[2.697s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:408:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.697s]   408 |         virtual result_t setSamplingRate([01;35m[Ksampling_rate &rate[m[K,
+[2.697s]       |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[2.698s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:409:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.698s]   409 |                                          [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.698s]       |                                          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.698s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getZeroOffsetAngle(offset_angle&, uint32_t)[m[K’:
+[2.698s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:423:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.698s]   423 |         virtual result_t getZeroOffsetAngle([01;35m[Koffset_angle &angle[m[K,
+[2.698s]       |                                             [01;35m[K~~~~~~~~~~~~~~^~~~~[m[K
+[2.698s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:424:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.698s]   424 |                                             [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.698s]       |                                             [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.698s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanHeartbeat(scan_heart_beat&, uint32_t)[m[K’:
+[2.699s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:439:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.699s]   439 |         virtual result_t setScanHeartbeat([01;35m[Kscan_heart_beat &beat[m[K,
+[2.699s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.699s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:440:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.699s]   440 |                                           [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.699s]       |                                           [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.699s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setWorkMode(int, uint8_t)[m[K’:
+[2.699s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:471:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.699s]   471 |         virtual result_t setWorkMode([01;35m[Kint mode = 0[m[K, uint8_t addr = 0x00) {
+[2.699s]       |                                      [01;35m[K~~~~^~~~~~~~[m[K
+[2.699s] [01m[K/home/robot/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:471:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaddr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.699s]   471 |         virtual result_t setWorkMode(int mode = 0, [01;35m[Kuint8_t addr = 0x00[m[K) {
+[2.699s]       |                                                    [01;35m[K~~~~~~~~^~~~~~~~~~~[m[K
+[4.738s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[4.739s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.739s]   169 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[4.739s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.739s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.739s]   170 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.739s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.739s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:171:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.739s]   171 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[4.739s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.756s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[4.756s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.756s]   179 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[4.756s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.756s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.756s]   180 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.756s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.757s] [01m[K/home/robot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:181:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.757s]   181 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[4.757s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[8.588s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[8.993s] [ 75%] Built target ydlidar_ros2_driver_node
+[10.868s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[11.275s] [100%] Built target ydlidar_ros2_driver_client
+[11.286s] Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j4 -l4
+[11.322s] Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver
+[11.331s] -- Install configuration: ""
+[11.331s] -- Execute custom install script
+[11.332s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[11.342s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[11.351s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[11.359s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[11.368s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[11.376s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[11.384s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[11.392s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[11.400s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[11.408s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[11.416s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[11.424s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[11.432s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[11.440s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[11.448s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[11.456s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[11.466s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[11.474s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[11.482s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[11.490s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[11.498s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[11.506s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[11.515s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[11.524s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[11.532s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[11.540s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[11.548s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[11.557s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[11.566s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[11.574s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[11.582s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[11.590s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[11.598s] -- Symlinking: /home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[11.608s] Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver

@@ -1,0 +1,10 @@
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/uninstall.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/car_odom_uninstall.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/car_odom.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/test.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/edit_cache.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/rebuild_cache.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/list_install_components.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/install.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/install/local.dir
+/home/robot/robot_ws/src/build/car_odom/CMakeFiles/install/strip.dir

@@ -1,0 +1,50 @@
+running egg_info
+creating ../build/urdf_tutorial/urdf_tutorial.egg-info
+writing ../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+writing dependency_links to ../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+writing entry points to ../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+writing requirements to ../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+writing top-level names to ../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+writing manifest file '../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+reading manifest file '../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+writing manifest file '../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/robot_ws/src/build/urdf_tutorial/build
+creating /home/robot/robot_ws/src/build/urdf_tutorial/build/lib
+creating /home/robot/robot_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial
+copying urdf_tutorial/fake_driver.py -> /home/robot/robot_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial
+copying urdf_tutorial/__init__.py -> /home/robot/robot_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial
+running install
+running install_lib
+creating /home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+copying /home/robot/robot_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial/fake_driver.py -> /home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+copying /home/robot/robot_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial/__init__.py -> /home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+byte-compiling /home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial/fake_driver.py to fake_driver.cpython-310.pyc
+byte-compiling /home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robot/robot_ws/src/install/urdf_tutorial/share/ament_index
+creating /home/robot/robot_ws/src/install/urdf_tutorial/share/ament_index/resource_index
+creating /home/robot/robot_ws/src/install/urdf_tutorial/share/ament_index/resource_index/packages
+copying resource/urdf_tutorial -> /home/robot/robot_ws/src/install/urdf_tutorial/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial
+creating /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_joint.launch.py -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_1.launch.py -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_3.launch.py -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/sim.launch.py -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/launch
+copying launch/robot_2.launch.py -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/launch
+creating /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/config
+copying config/robot_joint.rviz -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/config
+copying config/robot_1.rviz -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/config
+creating /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/gazebo.xacro -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/robot_3.xacro -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/robot_1.xacro -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/macros.xacro -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/urdf
+copying urdf/robot_2.xacro -> /home/robot/robot_ws/src/install/urdf_tutorial/share/urdf_tutorial/urdf
+running install_egg_info
+Copying ../build/urdf_tutorial/urdf_tutorial.egg-info to /home/robot/robot_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fake_driver script to /home/robot/robot_ws/src/install/urdf_tutorial/lib/urdf_tutorial
+writing list of installed files to '/home/robot/robot_ws/src/build/urdf_tutorial/install.log'

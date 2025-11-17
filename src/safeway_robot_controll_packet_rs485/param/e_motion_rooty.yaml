@@ -1,0 +1,8 @@
+/**: # namespace and node name
+  ros__parameters:
+    step_per_rotate: 120.0
+    wheel_diameter: 0.254
+    motion_circle_diameter: 0.47
+
+    # if you use UWB...
+

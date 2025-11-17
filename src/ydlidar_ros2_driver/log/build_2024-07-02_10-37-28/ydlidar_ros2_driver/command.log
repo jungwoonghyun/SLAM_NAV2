@@ -1,0 +1,4 @@
+Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': /usr/bin/cmake --build /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j4 -l4
+Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': /usr/bin/cmake --build /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j4 -l4
+Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': /usr/bin/cmake --install /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver
+Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': /usr/bin/cmake --install /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver

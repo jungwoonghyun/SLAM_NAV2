@@ -1,0 +1,11 @@
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/uninstall.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/helloworld_publisher.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/helloworld_subscriber.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/test.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/edit_cache.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/list_install_components.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/install.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/local.dir
+/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/strip.dir

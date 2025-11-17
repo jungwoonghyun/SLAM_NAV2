@@ -1,0 +1,500 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (clustering_cpp) JobQueued: {'identifier': 'clustering_cpp', 'dependencies': OrderedDict()}
+[0.000591] (clustering_cpp) JobStarted: {'identifier': 'clustering_cpp'}
+[0.099765] (-) TimerEvent: {}
+[0.189849] (clustering_cpp) JobProgress: {'identifier': 'clustering_cpp', 'progress': 'cmake'}
+[0.190228] (clustering_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/robot_ws/src/clustering_cpp', '-DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp'], 'cwd': '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'robot'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/home/robot/robot_ws/install/message_interface/lib:/home/robot/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/robot/turtlebot3_ws/install/dynamixel_sdk/lib:/home/robot/ros2_ws/install/message_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/ldlidar_ros2_ws/install:/home/robot/ydlidar_ros2_driver/install:/home/robot/install:/home/robot/turtlebot3_ws/install:/home/robot/ros2_ws/install:/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/875,unix/robot:/tmp/.ICE-unix/875'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ecbf201b_921a_4baf_beb0_d51b4d04f1ac'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.471CO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/install/safeway_robot_controll_packet_RS485:/home/robot/turtlebot3_ws/install/turtlebot3:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_bringup:/home/robot/turtlebot3_ws/install/turtlebot3_node:/home/robot/turtlebot3_ws/install/turtlebot3_navigation2:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_msgs:/home/robot/turtlebot3_ws/install/turtlebot3_description:/home/robot/turtlebot3_ws/install/turtlebot3_cartographer:/home/robot/turtlebot3_ws/install/ld08_driver:/home/robot/turtlebot3_ws/install/dynamixel_sdk_examples:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/robot/turtlebot3_ws/install/dynamixel_sdk:/home/robot/ros2_ws/install/object_detection_ros2:/home/robot/ros2_ws/install/message_interface:/home/robot/ros2_ws/install/gl_ros2_driver_udp:/home/robot/ros2_ws/install/gl_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/robot/robot_ws/install/message_interface/local/lib/python3.10/dist-packages:/home/robot/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/robot/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/robot/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/robot/ros2_ws/install/message_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/install/safeway_robot_controll_packet_RS485:/home/robot/turtlebot3_ws/install/turtlebot3:/home/robot/turtlebot3_ws/install/turtlebot3_bringup:/home/robot/turtlebot3_ws/install/turtlebot3_node:/home/robot/turtlebot3_ws/install/turtlebot3_navigation2:/home/robot/turtlebot3_ws/install/turtlebot3_msgs:/home/robot/turtlebot3_ws/install/turtlebot3_description:/home/robot/turtlebot3_ws/install/turtlebot3_cartographer:/home/robot/turtlebot3_ws/install/ld08_driver:/home/robot/turtlebot3_ws/install/dynamixel_sdk_examples:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/robot/turtlebot3_ws/install/dynamixel_sdk:/home/robot/ros2_ws/install/object_detection_ros2:/home/robot/ros2_ws/install/message_interface:/home/robot/ros2_ws/install/gl_ros2_driver_udp:/home/robot/ros2_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.199914] (-) TimerEvent: {}
+[0.270074] (clustering_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300004] (-) TimerEvent: {}
+[0.327254] (clustering_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.335521] (clustering_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400112] (-) TimerEvent: {}
+[0.421187] (clustering_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.423428] (clustering_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.423674] (clustering_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.424203] (clustering_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.428029] (clustering_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500213] (-) TimerEvent: {}
+[0.513388] (clustering_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.523785] (clustering_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.524077] (clustering_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.524700] (clustering_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.533233] (clustering_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600332] (-) TimerEvent: {}
+[0.700786] (-) TimerEvent: {}
+[0.771260] (clustering_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.800895] (-) TimerEvent: {}
+[0.901224] (-) TimerEvent: {}
+[0.968551] (clustering_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.001327] (-) TimerEvent: {}
+[1.053500] (clustering_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.064169] (clustering_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.079831] (clustering_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.101436] (-) TimerEvent: {}
+[1.106828] (clustering_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.145540] (clustering_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201541] (-) TimerEvent: {}
+[1.255605] (clustering_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.264313] (clustering_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.301646] (-) TimerEvent: {}
+[1.401983] (-) TimerEvent: {}
+[1.427309] (clustering_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.469459] (clustering_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.502106] (-) TimerEvent: {}
+[1.549014] (clustering_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.575348] (clustering_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.602217] (-) TimerEvent: {}
+[1.667679] (clustering_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.668171] (clustering_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.702536] (-) TimerEvent: {}
+[1.765144] (clustering_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.770661] (clustering_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.802644] (-) TimerEvent: {}
+[1.902987] (-) TimerEvent: {}
+[2.003347] (-) TimerEvent: {}
+[2.014591] (clustering_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.103460] (-) TimerEvent: {}
+[2.203788] (-) TimerEvent: {}
+[2.207611] (clustering_cpp) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.303904] (-) TimerEvent: {}
+[2.393587] (clustering_cpp) StdoutLine: {'line': b'-- Found message_interface: 0.0.0 (/home/robot/robot_ws/install/message_interface/share/message_interface/cmake)\n'}
+[2.404013] (-) TimerEvent: {}
+[2.447916] (clustering_cpp) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.467977] (clustering_cpp) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[2.504142] (-) TimerEvent: {}
+[2.519115] (clustering_cpp) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.519362] (clustering_cpp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.579716] (clustering_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[2.603435] (clustering_cpp) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.604208] (-) TimerEvent: {}
+[2.621875] (clustering_cpp) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.672582] (clustering_cpp) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.672853] (clustering_cpp) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.704325] (-) TimerEvent: {}
+[2.726674] (clustering_cpp) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[2.737909] (clustering_cpp) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[2.804445] (-) TimerEvent: {}
+[2.904811] (-) TimerEvent: {}
+[2.939351] (clustering_cpp) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[2.939657] (clustering_cpp) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[2.944763] (clustering_cpp) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[2.965191] (clustering_cpp) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.995002] (clustering_cpp) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[3.004920] (-) TimerEvent: {}
+[3.021132] (clustering_cpp) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[3.105899] (-) TimerEvent: {}
+[3.180449] (clustering_cpp) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[3.182897] (clustering_cpp) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[3.207906] (-) TimerEvent: {}
+[3.279046] (clustering_cpp) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[3.279307] (clustering_cpp) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[3.308012] (-) TimerEvent: {}
+[3.383784] (clustering_cpp) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[3.384139] (clustering_cpp) StdoutLine: {'line': b'-- Looking for connect\n'}
+[3.410708] (-) TimerEvent: {}
+[3.473918] (clustering_cpp) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[3.474476] (clustering_cpp) StdoutLine: {'line': b'-- Looking for remove\n'}
+[3.510831] (-) TimerEvent: {}
+[3.581470] (clustering_cpp) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[3.581780] (clustering_cpp) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[3.612542] (-) TimerEvent: {}
+[3.669033] (clustering_cpp) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[3.669338] (clustering_cpp) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[3.713169] (-) TimerEvent: {}
+[3.765135] (clustering_cpp) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[3.813275] (-) TimerEvent: {}
+[3.883321] (clustering_cpp) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[3.890500] (clustering_cpp) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[3.894286] (clustering_cpp) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[3.897657] (clustering_cpp) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[3.913393] (-) TimerEvent: {}
+[3.920051] (clustering_cpp) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[3.929969] (clustering_cpp) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[3.936055] (clustering_cpp) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[3.945007] (clustering_cpp) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[4.013511] (-) TimerEvent: {}
+[4.058774] (clustering_cpp) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[4.079327] (clustering_cpp) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[4.113618] (-) TimerEvent: {}
+[4.122036] (clustering_cpp) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[4.123329] (clustering_cpp) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[4.123473] (clustering_cpp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.191979] (clustering_cpp) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[4.192171] (clustering_cpp) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.192328] (clustering_cpp) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[4.213714] (-) TimerEvent: {}
+[4.314101] (-) TimerEvent: {}
+[4.402698] (clustering_cpp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.411040] (clustering_cpp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.414211] (-) TimerEvent: {}
+[4.419030] (clustering_cpp) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.514955] (-) TimerEvent: {}
+[4.615296] (-) TimerEvent: {}
+[4.632637] (clustering_cpp) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.715404] (-) TimerEvent: {}
+[4.815724] (-) TimerEvent: {}
+[4.834648] (clustering_cpp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.915860] (-) TimerEvent: {}
+[5.016164] (-) TimerEvent: {}
+[5.034498] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[5.035705] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[5.035958] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[5.037041] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[5.037283] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[5.038384] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[5.038595] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[5.039676] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[5.040082] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[5.041192] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[5.041428] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[5.043106] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[5.043329] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[5.043479] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[5.043629] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[5.043905] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[5.044108] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[5.046342] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[5.046563] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[5.046814] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[5.047187] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[5.048305] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[5.048529] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[5.049584] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[5.049950] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[5.051158] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[5.051535] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[5.052652] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[5.052940] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[5.054098] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[5.054432] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[5.055478] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[5.055780] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[5.056877] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[5.057198] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[5.058282] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[5.058695] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[5.059757] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[5.059966] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[5.061119] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[5.061940] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[5.062261] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[5.062467] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[5.062701] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[5.062857] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[5.063268] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[5.063423] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[5.064607] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[5.064895] (clustering_cpp) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[5.065999] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[5.067066] (clustering_cpp) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.2") \n'}
+[5.082318] (clustering_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.116261] (-) TimerEvent: {}
+[5.216707] (-) TimerEvent: {}
+[5.239589] (clustering_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.240268] (clustering_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.240518] (clustering_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.244083] (clustering_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.248345] (clustering_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.251398] (clustering_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.257359] (clustering_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.257729] (clustering_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.259864] (clustering_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.262833] (clustering_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.269175] (clustering_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:27 (add_executable):\n'}
+[5.269390] (clustering_cpp) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[5.269504] (clustering_cpp) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[5.269614] (clustering_cpp) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[5.269710] (clustering_cpp) StderrLine: {'line': b'\n'}
+[5.269798] (clustering_cpp) StderrLine: {'line': b'  File:\n'}
+[5.269878] (clustering_cpp) StderrLine: {'line': b'\n'}
+[5.269955] (clustering_cpp) StderrLine: {'line': b'    /home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp\n'}
+[5.270033] (clustering_cpp) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.270112] (clustering_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[5.316830] (-) TimerEvent: {}
+[5.319951] (clustering_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[5.324280] (clustering_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp\n'}
+[5.360770] (clustering_cpp) CommandEnded: {'returncode': 0}
+[5.361283] (clustering_cpp) JobProgress: {'identifier': 'clustering_cpp', 'progress': 'build'}
+[5.361326] (clustering_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'robot'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/home/robot/robot_ws/install/message_interface/lib:/home/robot/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/robot/turtlebot3_ws/install/dynamixel_sdk/lib:/home/robot/ros2_ws/install/message_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/ldlidar_ros2_ws/install:/home/robot/ydlidar_ros2_driver/install:/home/robot/install:/home/robot/turtlebot3_ws/install:/home/robot/ros2_ws/install:/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/875,unix/robot:/tmp/.ICE-unix/875'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ecbf201b_921a_4baf_beb0_d51b4d04f1ac'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.471CO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/install/safeway_robot_controll_packet_RS485:/home/robot/turtlebot3_ws/install/turtlebot3:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_bringup:/home/robot/turtlebot3_ws/install/turtlebot3_node:/home/robot/turtlebot3_ws/install/turtlebot3_navigation2:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_msgs:/home/robot/turtlebot3_ws/install/turtlebot3_description:/home/robot/turtlebot3_ws/install/turtlebot3_cartographer:/home/robot/turtlebot3_ws/install/ld08_driver:/home/robot/turtlebot3_ws/install/dynamixel_sdk_examples:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/robot/turtlebot3_ws/install/dynamixel_sdk:/home/robot/ros2_ws/install/object_detection_ros2:/home/robot/ros2_ws/install/message_interface:/home/robot/ros2_ws/install/gl_ros2_driver_udp:/home/robot/ros2_ws/install/gl_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/robot/robot_ws/install/message_interface/local/lib/python3.10/dist-packages:/home/robot/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/robot/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/robot/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/robot/ros2_ws/install/message_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/install/safeway_robot_controll_packet_RS485:/home/robot/turtlebot3_ws/install/turtlebot3:/home/robot/turtlebot3_ws/install/turtlebot3_bringup:/home/robot/turtlebot3_ws/install/turtlebot3_node:/home/robot/turtlebot3_ws/install/turtlebot3_navigation2:/home/robot/turtlebot3_ws/install/turtlebot3_msgs:/home/robot/turtlebot3_ws/install/turtlebot3_description:/home/robot/turtlebot3_ws/install/turtlebot3_cartographer:/home/robot/turtlebot3_ws/install/ld08_driver:/home/robot/turtlebot3_ws/install/dynamixel_sdk_examples:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/robot/turtlebot3_ws/install/dynamixel_sdk:/home/robot/ros2_ws/install/object_detection_ros2:/home/robot/ros2_ws/install/message_interface:/home/robot/ros2_ws/install/gl_ros2_driver_udp:/home/robot/ros2_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[5.416944] (-) TimerEvent: {}
+[5.437203] (clustering_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/clustering.dir/src/clustering.cpp.o\x1b[0m\n'}
+[5.517152] (-) TimerEvent: {}
+[5.617480] (-) TimerEvent: {}
+[5.717778] (-) TimerEvent: {}
+[5.818092] (-) TimerEvent: {}
+[5.918523] (-) TimerEvent: {}
+[6.019116] (-) TimerEvent: {}
+[6.119428] (-) TimerEvent: {}
+[6.219730] (-) TimerEvent: {}
+[6.320030] (-) TimerEvent: {}
+[6.420326] (-) TimerEvent: {}
+[6.520631] (-) TimerEvent: {}
+[6.620933] (-) TimerEvent: {}
+[6.721349] (-) TimerEvent: {}
+[6.821645] (-) TimerEvent: {}
+[6.921938] (-) TimerEvent: {}
+[7.022234] (-) TimerEvent: {}
+[7.122532] (-) TimerEvent: {}
+[7.222836] (-) TimerEvent: {}
+[7.323132] (-) TimerEvent: {}
+[7.423469] (-) TimerEvent: {}
+[7.480081] (clustering_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25\x1b[m\x1b[K:\n'}
+[7.480291] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.480414] (clustering_cpp) StderrLine: {'line': b'   47 | #    \x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[7.480505] (clustering_cpp) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.523603] (-) TimerEvent: {}
+[7.623935] (-) TimerEvent: {}
+[7.724270] (-) TimerEvent: {}
+[7.824653] (-) TimerEvent: {}
+[7.924994] (-) TimerEvent: {}
+[8.025358] (-) TimerEvent: {}
+[8.125703] (-) TimerEvent: {}
+[8.226032] (-) TimerEvent: {}
+[8.326365] (-) TimerEvent: {}
+[8.426688] (-) TimerEvent: {}
+[8.528375] (-) TimerEvent: {}
+[8.629159] (-) TimerEvent: {}
+[8.729696] (-) TimerEvent: {}
+[8.830029] (-) TimerEvent: {}
+[8.930352] (-) TimerEvent: {}
+[9.030671] (-) TimerEvent: {}
+[9.131022] (-) TimerEvent: {}
+[9.231367] (-) TimerEvent: {}
+[9.331818] (-) TimerEvent: {}
+[9.432140] (-) TimerEvent: {}
+[9.532471] (-) TimerEvent: {}
+[9.632846] (-) TimerEvent: {}
+[9.733182] (-) TimerEvent: {}
+[9.833500] (-) TimerEvent: {}
+[9.933826] (-) TimerEvent: {}
+[10.034207] (-) TimerEvent: {}
+[10.134478] (-) TimerEvent: {}
+[10.234841] (-) TimerEvent: {}
+[10.335174] (-) TimerEvent: {}
+[10.435505] (-) TimerEvent: {}
+[10.535842] (-) TimerEvent: {}
+[10.636156] (-) TimerEvent: {}
+[10.736520] (-) TimerEvent: {}
+[10.836886] (-) TimerEvent: {}
+[10.937212] (-) TimerEvent: {}
+[11.037468] (-) TimerEvent: {}
+[11.137763] (-) TimerEvent: {}
+[11.238073] (-) TimerEvent: {}
+[11.338403] (-) TimerEvent: {}
+[11.438753] (-) TimerEvent: {}
+[11.539102] (-) TimerEvent: {}
+[11.639430] (-) TimerEvent: {}
+[11.739768] (-) TimerEvent: {}
+[11.840080] (-) TimerEvent: {}
+[11.940418] (-) TimerEvent: {}
+[12.040751] (-) TimerEvent: {}
+[12.141109] (-) TimerEvent: {}
+[12.241410] (-) TimerEvent: {}
+[12.341778] (-) TimerEvent: {}
+[12.442108] (-) TimerEvent: {}
+[12.542441] (-) TimerEvent: {}
+[12.642773] (-) TimerEvent: {}
+[12.727833] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid clusteringNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.728044] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:155:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klost\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.728140] (clustering_cpp) StderrLine: {'line': b'  155 |     int \x1b[01;35m\x1b[Klost\x1b[m\x1b[K, collision;\n'}
+[12.728224] (clustering_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.728301] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:155:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcollision\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.728380] (clustering_cpp) StderrLine: {'line': b'  155 |     int lost, \x1b[01;35m\x1b[Kcollision\x1b[m\x1b[K;\n'}
+[12.728459] (clustering_cpp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.742911] (-) TimerEvent: {}
+[12.751308] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid clusteringNode::mapOutPub(std::vector<ObjInfo>, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.751516] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:499:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.751635] (clustering_cpp) StderrLine: {'line': b'  499 |         sensor_msgs::\x1b[01;35m\x1b[KconvertPointCloudToPointCloud2\x1b[m\x1b[K(out_msg, out_msg2);\n'}
+[12.751728] (clustering_cpp) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.751803] (clustering_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25\x1b[m\x1b[K:\n'}
+[12.751906] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.752005] (clustering_cpp) StderrLine: {'line': b'   81 | static inline bool \x1b[01;36m\x1b[KconvertPointCloudToPointCloud2\x1b[m\x1b[K(\n'}
+[12.752080] (clustering_cpp) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.752156] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:499:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.752238] (clustering_cpp) StderrLine: {'line': b'  499 |         \x1b[01;35m\x1b[Ksensor_msgs::convertPointCloudToPointCloud2(out_msg, out_msg2)\x1b[m\x1b[K;\n'}
+[12.752315] (clustering_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.752391] (clustering_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25\x1b[m\x1b[K:\n'}
+[12.752475] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.752548] (clustering_cpp) StderrLine: {'line': b'   81 | static inline bool \x1b[01;36m\x1b[KconvertPointCloudToPointCloud2\x1b[m\x1b[K(\n'}
+[12.752625] (clustering_cpp) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.754342] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid clusteringNode::pubMarker(std::vector<ObjInfo>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.754522] (clustering_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:507:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kdistance\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.754623] (clustering_cpp) StderrLine: {'line': b'  507 |     double \x1b[01;35m\x1b[Kdistance\x1b[m\x1b[K;\n'}
+[12.754708] (clustering_cpp) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.843048] (-) TimerEvent: {}
+[12.943377] (-) TimerEvent: {}
+[13.043707] (-) TimerEvent: {}
+[13.144041] (-) TimerEvent: {}
+[13.244349] (-) TimerEvent: {}
+[13.344679] (-) TimerEvent: {}
+[13.445022] (-) TimerEvent: {}
+[13.545364] (-) TimerEvent: {}
+[13.645733] (-) TimerEvent: {}
+[13.746100] (-) TimerEvent: {}
+[13.846474] (-) TimerEvent: {}
+[13.946796] (-) TimerEvent: {}
+[14.047107] (-) TimerEvent: {}
+[14.147438] (-) TimerEvent: {}
+[14.247762] (-) TimerEvent: {}
+[14.348100] (-) TimerEvent: {}
+[14.448418] (-) TimerEvent: {}
+[14.548759] (-) TimerEvent: {}
+[14.649070] (-) TimerEvent: {}
+[14.749371] (-) TimerEvent: {}
+[14.849679] (-) TimerEvent: {}
+[14.950005] (-) TimerEvent: {}
+[15.050344] (-) TimerEvent: {}
+[15.150652] (-) TimerEvent: {}
+[15.250999] (-) TimerEvent: {}
+[15.351292] (-) TimerEvent: {}
+[15.451588] (-) TimerEvent: {}
+[15.551906] (-) TimerEvent: {}
+[15.652238] (-) TimerEvent: {}
+[15.752574] (-) TimerEvent: {}
+[15.852885] (-) TimerEvent: {}
+[15.953195] (-) TimerEvent: {}
+[16.053493] (-) TimerEvent: {}
+[16.153797] (-) TimerEvent: {}
+[16.254121] (-) TimerEvent: {}
+[16.354452] (-) TimerEvent: {}
+[16.454791] (-) TimerEvent: {}
+[16.555100] (-) TimerEvent: {}
+[16.655435] (-) TimerEvent: {}
+[16.755760] (-) TimerEvent: {}
+[16.856099] (-) TimerEvent: {}
+[16.956428] (-) TimerEvent: {}
+[17.056781] (-) TimerEvent: {}
+[17.157088] (-) TimerEvent: {}
+[17.257388] (-) TimerEvent: {}
+[17.357697] (-) TimerEvent: {}
+[17.458043] (-) TimerEvent: {}
+[17.558362] (-) TimerEvent: {}
+[17.658684] (-) TimerEvent: {}
+[17.758975] (-) TimerEvent: {}
+[17.859269] (-) TimerEvent: {}
+[17.959596] (-) TimerEvent: {}
+[18.059922] (-) TimerEvent: {}
+[18.160250] (-) TimerEvent: {}
+[18.260577] (-) TimerEvent: {}
+[18.360933] (-) TimerEvent: {}
+[18.461241] (-) TimerEvent: {}
+[18.561654] (-) TimerEvent: {}
+[18.662012] (-) TimerEvent: {}
+[18.762316] (-) TimerEvent: {}
+[18.862606] (-) TimerEvent: {}
+[18.962925] (-) TimerEvent: {}
+[19.063300] (-) TimerEvent: {}
+[19.163638] (-) TimerEvent: {}
+[19.263957] (-) TimerEvent: {}
+[19.364271] (-) TimerEvent: {}
+[19.464579] (-) TimerEvent: {}
+[19.564902] (-) TimerEvent: {}
+[19.665224] (-) TimerEvent: {}
+[19.765515] (-) TimerEvent: {}
+[19.865826] (-) TimerEvent: {}
+[19.966125] (-) TimerEvent: {}
+[20.066439] (-) TimerEvent: {}
+[20.166775] (-) TimerEvent: {}
+[20.267093] (-) TimerEvent: {}
+[20.367379] (-) TimerEvent: {}
+[20.467704] (-) TimerEvent: {}
+[20.568022] (-) TimerEvent: {}
+[20.668333] (-) TimerEvent: {}
+[20.768593] (-) TimerEvent: {}
+[20.868918] (-) TimerEvent: {}
+[20.969223] (-) TimerEvent: {}
+[21.069516] (-) TimerEvent: {}
+[21.169794] (-) TimerEvent: {}
+[21.270085] (-) TimerEvent: {}
+[21.370403] (-) TimerEvent: {}
+[21.470725] (-) TimerEvent: {}
+[21.571037] (-) TimerEvent: {}
+[21.671312] (-) TimerEvent: {}
+[21.771589] (-) TimerEvent: {}
+[21.871919] (-) TimerEvent: {}
+[21.972202] (-) TimerEvent: {}
+[22.072520] (-) TimerEvent: {}
+[22.172839] (-) TimerEvent: {}
+[22.273152] (-) TimerEvent: {}
+[22.373436] (-) TimerEvent: {}
+[22.473762] (-) TimerEvent: {}
+[22.574131] (-) TimerEvent: {}
+[22.674426] (-) TimerEvent: {}
+[22.774791] (-) TimerEvent: {}
+[22.875155] (-) TimerEvent: {}
+[22.975473] (-) TimerEvent: {}
+[23.075793] (-) TimerEvent: {}
+[23.176112] (-) TimerEvent: {}
+[23.276427] (-) TimerEvent: {}
+[23.376754] (-) TimerEvent: {}
+[23.477076] (-) TimerEvent: {}
+[23.577392] (-) TimerEvent: {}
+[23.677719] (-) TimerEvent: {}
+[23.778035] (-) TimerEvent: {}
+[23.878318] (-) TimerEvent: {}
+[23.978609] (-) TimerEvent: {}
+[24.078886] (-) TimerEvent: {}
+[24.179180] (-) TimerEvent: {}
+[24.279497] (-) TimerEvent: {}
+[24.379835] (-) TimerEvent: {}
+[24.480239] (-) TimerEvent: {}
+[24.580653] (-) TimerEvent: {}
+[24.680978] (-) TimerEvent: {}
+[24.781283] (-) TimerEvent: {}
+[24.881585] (-) TimerEvent: {}
+[24.981936] (-) TimerEvent: {}
+[25.082264] (-) TimerEvent: {}
+[25.182558] (-) TimerEvent: {}
+[25.239594] (clustering_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable clustering\x1b[0m\n'}
+[25.282705] (-) TimerEvent: {}
+[25.383030] (-) TimerEvent: {}
+[25.483406] (-) TimerEvent: {}
+[25.583743] (-) TimerEvent: {}
+[25.684212] (-) TimerEvent: {}
+[25.784608] (-) TimerEvent: {}
+[25.884931] (-) TimerEvent: {}
+[25.985286] (-) TimerEvent: {}
+[26.085710] (-) TimerEvent: {}
+[26.186173] (-) TimerEvent: {}
+[26.286602] (-) TimerEvent: {}
+[26.387015] (-) TimerEvent: {}
+[26.487439] (-) TimerEvent: {}
+[26.587864] (-) TimerEvent: {}
+[26.688163] (-) TimerEvent: {}
+[26.788559] (-) TimerEvent: {}
+[26.888909] (-) TimerEvent: {}
+[26.989292] (-) TimerEvent: {}
+[27.089625] (-) TimerEvent: {}
+[27.189950] (-) TimerEvent: {}
+[27.290274] (-) TimerEvent: {}
+[27.390599] (-) TimerEvent: {}
+[27.490954] (-) TimerEvent: {}
+[27.591292] (-) TimerEvent: {}
+[27.592318] (clustering_cpp) StdoutLine: {'line': b'[100%] Built target clustering\n'}
+[27.604211] (clustering_cpp) CommandEnded: {'returncode': 0}
+[27.637121] (clustering_cpp) JobProgress: {'identifier': 'clustering_cpp', 'progress': 'install'}
+[27.647771] (clustering_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp'], 'cwd': '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'robot'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/home/robot/robot_ws/install/message_interface/lib:/home/robot/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/robot/turtlebot3_ws/install/dynamixel_sdk/lib:/home/robot/ros2_ws/install/message_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '981'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/ldlidar_ros2_ws/install:/home/robot/ydlidar_ros2_driver/install:/home/robot/install:/home/robot/turtlebot3_ws/install:/home/robot/ros2_ws/install:/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/875,unix/robot:/tmp/.ICE-unix/875'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ecbf201b_921a_4baf_beb0_d51b4d04f1ac'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.471CO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/install/safeway_robot_controll_packet_RS485:/home/robot/turtlebot3_ws/install/turtlebot3:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_bringup:/home/robot/turtlebot3_ws/install/turtlebot3_node:/home/robot/turtlebot3_ws/install/turtlebot3_navigation2:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_msgs:/home/robot/turtlebot3_ws/install/turtlebot3_description:/home/robot/turtlebot3_ws/install/turtlebot3_cartographer:/home/robot/turtlebot3_ws/install/ld08_driver:/home/robot/turtlebot3_ws/install/dynamixel_sdk_examples:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/robot/turtlebot3_ws/install/dynamixel_sdk:/home/robot/ros2_ws/install/object_detection_ros2:/home/robot/ros2_ws/install/message_interface:/home/robot/ros2_ws/install/gl_ros2_driver_udp:/home/robot/ros2_ws/install/gl_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/robot/robot_ws/install/message_interface/local/lib/python3.10/dist-packages:/home/robot/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/robot/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/robot/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/robot/ros2_ws/install/message_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/install/safeway_robot_controll_packet_RS485:/home/robot/turtlebot3_ws/install/turtlebot3:/home/robot/turtlebot3_ws/install/turtlebot3_bringup:/home/robot/turtlebot3_ws/install/turtlebot3_node:/home/robot/turtlebot3_ws/install/turtlebot3_navigation2:/home/robot/turtlebot3_ws/install/turtlebot3_msgs:/home/robot/turtlebot3_ws/install/turtlebot3_description:/home/robot/turtlebot3_ws/install/turtlebot3_cartographer:/home/robot/turtlebot3_ws/install/ld08_driver:/home/robot/turtlebot3_ws/install/dynamixel_sdk_examples:/home/robot/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/robot/turtlebot3_ws/install/dynamixel_sdk:/home/robot/ros2_ws/install/object_detection_ros2:/home/robot/ros2_ws/install/message_interface:/home/robot/ros2_ws/install/gl_ros2_driver_udp:/home/robot/ros2_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[27.656332] (clustering_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.656583] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/lib/clustering_cpp/clustering\n'}
+[27.663832] (clustering_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/lib/clustering_cpp/clustering" to ""\n'}
+[27.664109] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/ament_index/resource_index/package_run_dependencies/clustering_cpp\n'}
+[27.664239] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/ament_index/resource_index/parent_prefix_path/clustering_cpp\n'}
+[27.664365] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.sh\n'}
+[27.664533] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.dsv\n'}
+[27.664697] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/path.sh\n'}
+[27.664825] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/path.dsv\n'}
+[27.664967] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.bash\n'}
+[27.665174] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.sh\n'}
+[27.665349] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.zsh\n'}
+[27.665509] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.dsv\n'}
+[27.665659] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/package.dsv\n'}
+[27.665864] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/ament_index/resource_index/packages/clustering_cpp\n'}
+[27.666044] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig.cmake\n'}
+[27.666184] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig-version.cmake\n'}
+[27.666318] (clustering_cpp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/package.xml\n'}
+[27.668342] (clustering_cpp) CommandEnded: {'returncode': 0}
+[27.691457] (-) TimerEvent: {}
+[27.791974] (-) TimerEvent: {}
+[27.836405] (clustering_cpp) JobEnded: {'identifier': 'clustering_cpp', 'rc': 0}
+[27.837486] (-) EventReactorShutdown: {}

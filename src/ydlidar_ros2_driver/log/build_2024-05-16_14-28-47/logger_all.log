@@ -1,0 +1,109 @@
+[1.022s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.022s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70b476c4ec50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70b476c4cbb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70b476c4cbb0>>)
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.069s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robot/ydlidar_ros2_driver'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.083s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robot/ldlidar_ros2_ws/install
+[1.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robot/ydlidar_ros2_driver/install
+[1.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robot/install
+[1.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/robot/turtlebot3_ws/install
+[1.300s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/robot/ros2_ws/install
+[1.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/robot/robot_ws/install
+[1.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/humble
+[1.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.449s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.449s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/robot/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[1.464s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.481s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.482s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/ydlidar_ros2_driver' with build type 'ament_cmake'
+[1.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/ydlidar_ros2_driver'
+[1.500s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j4 -l4
+[11.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j4 -l4
+[11.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver
+[11.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[11.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver
+[11.865s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver' for CMake module files
+[11.865s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver' for CMake config files
+[11.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[11.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[11.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[11.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[11.885s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib'
+[11.885s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/bin'
+[11.885s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[11.886s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[11.886s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/bin'
+[11.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[11.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[11.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[11.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[11.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[11.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[11.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[11.968s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver' for CMake module files
+[11.968s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver' for CMake config files
+[11.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[11.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[11.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[11.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[11.987s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib'
+[11.987s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/bin'
+[11.987s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[11.987s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[11.987s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/bin'
+[12.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[12.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[12.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[12.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[12.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[12.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[12.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.009s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.037s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.051s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ydlidar_ros2_driver/install/local_setup.ps1'
+[12.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/ydlidar_ros2_driver/install/_local_setup_util_ps1.py'
+[12.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ydlidar_ros2_driver/install/setup.ps1'
+[12.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ydlidar_ros2_driver/install/local_setup.sh'
+[12.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/ydlidar_ros2_driver/install/_local_setup_util_sh.py'
+[12.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ydlidar_ros2_driver/install/setup.sh'
+[12.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ydlidar_ros2_driver/install/local_setup.bash'
+[12.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ydlidar_ros2_driver/install/setup.bash'
+[12.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ydlidar_ros2_driver/install/local_setup.zsh'
+[12.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ydlidar_ros2_driver/install/setup.zsh'

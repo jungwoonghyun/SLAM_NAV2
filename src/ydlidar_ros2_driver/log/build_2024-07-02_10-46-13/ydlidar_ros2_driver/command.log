@@ -1,0 +1,2 @@
+Invoking command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver': /usr/bin/cmake /home/robot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver
+Invoked command in '/home/robot/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '1': /usr/bin/cmake /home/robot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver

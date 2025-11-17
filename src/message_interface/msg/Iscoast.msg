@@ -1,0 +1,2 @@
+#Iscoast.msg
+bool  iscoast

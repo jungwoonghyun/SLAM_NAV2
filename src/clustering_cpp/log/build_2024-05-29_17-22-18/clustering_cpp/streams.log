@@ -1,0 +1,215 @@
+[0.192s] Invoking command in '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/clustering_cpp -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.327s] -- The CXX compiler identification is GNU 11.4.0
+[0.335s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.423s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.423s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.428s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.523s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.524s] -- Detecting CXX compile features
+[0.524s] -- Detecting CXX compile features - done
+[0.533s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.771s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.968s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.053s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.064s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.079s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.255s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.264s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.427s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.469s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.549s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.575s] -- Looking for pthread.h
+[1.667s] -- Looking for pthread.h - found
+[1.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.770s] -- Found Threads: TRUE  
+[2.014s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.207s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.393s] -- Found message_interface: 0.0.0 (/home/robot/robot_ws/install/message_interface/share/message_interface/cmake)
+[2.447s] -- Checking for module 'eigen3'
+[2.468s] --   Found eigen3, version 3.4.0
+[2.519s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.519s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.579s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.603s] -- Checking for module 'flann'
+[2.621s] --   Found flann, version 1.9.1
+[2.672s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.672s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.726s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.737s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.939s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.939s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.944s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.965s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.995s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.021s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.180s] -- Found X11: /usr/include   
+[3.182s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.279s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.279s] -- Looking for gethostbyname
+[3.383s] -- Looking for gethostbyname - found
+[3.384s] -- Looking for connect
+[3.473s] -- Looking for connect - found
+[3.474s] -- Looking for remove
+[3.581s] -- Looking for remove - found
+[3.581s] -- Looking for shmat
+[3.669s] -- Looking for shmat - found
+[3.669s] -- Looking for IceConnectionNumber in ICE
+[3.765s] -- Looking for IceConnectionNumber in ICE - found
+[3.883s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.890s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.894s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.897s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.920s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.930s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.936s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.945s] -- Found utf8cpp: /usr/include/utf8cpp  
+[4.058s] -- Checking for module 'libusb-1.0'
+[4.079s] --   Found libusb-1.0, version 1.0.25
+[4.122s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.123s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[4.123s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.192s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.192s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.192s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.402s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.411s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.419s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.632s] -- Found Qhull version 8.0.2
+[4.834s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.034s] -- looking for PCL_COMMON
+[5.035s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.035s] -- looking for PCL_KDTREE
+[5.037s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.037s] -- looking for PCL_OCTREE
+[5.038s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.038s] -- looking for PCL_SEARCH
+[5.039s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.040s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.041s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.041s] -- looking for PCL_FILTERS
+[5.043s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.043s] -- looking for PCL_2D
+[5.043s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.043s] -- looking for PCL_GEOMETRY
+[5.043s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.044s] -- looking for PCL_IO
+[5.046s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.046s] -- looking for PCL_FEATURES
+[5.046s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.047s] -- looking for PCL_ML
+[5.048s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.048s] -- looking for PCL_SEGMENTATION
+[5.049s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.049s] -- looking for PCL_VISUALIZATION
+[5.051s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.051s] -- looking for PCL_SURFACE
+[5.052s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.052s] -- looking for PCL_REGISTRATION
+[5.054s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.054s] -- looking for PCL_KEYPOINTS
+[5.055s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.055s] -- looking for PCL_TRACKING
+[5.056s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.057s] -- looking for PCL_RECOGNITION
+[5.058s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.058s] -- looking for PCL_STEREO
+[5.059s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.059s] -- looking for PCL_APPS
+[5.061s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.061s] -- looking for PCL_IN_HAND_SCANNER
+[5.062s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.062s] -- looking for PCL_MODELER
+[5.062s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.062s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.063s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.063s] -- looking for PCL_OUTOFCORE
+[5.064s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.064s] -- looking for PCL_PEOPLE
+[5.065s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.067s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.2") 
+[5.082s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.239s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.240s] -- Configured cppcheck include dirs: 
+[5.240s] -- Configured cppcheck exclude dirs and/or files: 
+[5.244s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.248s] -- Added test 'lint_cmake' to check CMake code style
+[5.251s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.257s] -- Added test 'uncrustify' to check C / C++ code style
+[5.257s] -- Configured uncrustify additional arguments: 
+[5.259s] -- Added test 'xmllint' to check XML markup files
+[5.262s] -- Configuring done
+[5.269s] [33mCMake Warning (dev) at CMakeLists.txt:27 (add_executable):
+[5.269s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[5.269s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[5.269s]   command to set the policy and suppress this warning.
+[5.269s] 
+[5.269s]   File:
+[5.269s] 
+[5.269s]     /home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp
+[5.269s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.270s] [0m
+[5.320s] -- Generating done
+[5.324s] -- Build files have been written to: /home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp
+[5.360s] Invoked command in '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/clustering_cpp -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp
+[5.361s] Invoking command in '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp -- -j4 -l4
+[5.437s] [ 50%] [32mBuilding CXX object CMakeFiles/clustering.dir/src/clustering.cpp.o[0m
+[7.480s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[7.480s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.480s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[7.480s]       |      [01;35m[K^~~~~~~[m[K
+[12.727s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::timer_callback()[m[K’:
+[12.728s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:155:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.728s]   155 |     int [01;35m[Klost[m[K, collision;
+[12.728s]       |         [01;35m[K^~~~[m[K
+[12.728s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:155:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcollision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.728s]   155 |     int lost, [01;35m[Kcollision[m[K;
+[12.728s]       |               [01;35m[K^~~~~~~~~[m[K
+[12.751s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::mapOutPub(std::vector<ObjInfo>, int)[m[K’:
+[12.751s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:499:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.751s]   499 |         sensor_msgs::[01;35m[KconvertPointCloudToPointCloud2[m[K(out_msg, out_msg2);
+[12.751s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.751s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[12.751s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.751s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[12.752s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.752s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:499:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.752s]   499 |         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(out_msg, out_msg2)[m[K;
+[12.752s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[12.752s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[12.752s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.752s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[12.752s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.754s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::pubMarker(std::vector<ObjInfo>)[m[K’:
+[12.754s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:507:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdistance[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[12.754s]   507 |     double [01;35m[Kdistance[m[K;
+[12.754s]       |            [01;35m[K^~~~~~~~[m[K
+[25.239s] [100%] [32m[1mLinking CXX executable clustering[0m
+[27.592s] [100%] Built target clustering
+[27.604s] Invoked command in '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp -- -j4 -l4
+[27.648s] Invoking command in '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp
+[27.656s] -- Install configuration: ""
+[27.656s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/lib/clustering_cpp/clustering
+[27.663s] -- Set runtime path of "/home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/lib/clustering_cpp/clustering" to ""
+[27.664s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/ament_index/resource_index/package_run_dependencies/clustering_cpp
+[27.664s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/ament_index/resource_index/parent_prefix_path/clustering_cpp
+[27.664s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.sh
+[27.664s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.dsv
+[27.664s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/path.sh
+[27.664s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/environment/path.dsv
+[27.664s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.bash
+[27.665s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.sh
+[27.665s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.zsh
+[27.665s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/local_setup.dsv
+[27.665s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/package.dsv
+[27.665s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/ament_index/resource_index/packages/clustering_cpp
+[27.666s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig.cmake
+[27.666s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig-version.cmake
+[27.666s] -- Installing: /home/robot/robot_ws/src/clustering_cpp/install/clustering_cpp/share/clustering_cpp/package.xml
+[27.668s] Invoked command in '/home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/clustering_cpp/build/clustering_cpp

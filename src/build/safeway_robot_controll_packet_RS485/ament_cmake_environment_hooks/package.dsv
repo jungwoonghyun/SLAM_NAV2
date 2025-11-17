@@ -1,0 +1,4 @@
+source;share/safeway_robot_controll_packet_RS485/local_setup.bash
+source;share/safeway_robot_controll_packet_RS485/local_setup.dsv
+source;share/safeway_robot_controll_packet_RS485/local_setup.sh
+source;share/safeway_robot_controll_packet_RS485/local_setup.zsh

@@ -1,0 +1,16 @@
+/home/robot/robot_ws/src/install/clustering_cpp/lib/clustering_cpp/clustering
+/home/robot/robot_ws/src/install/clustering_cpp/share/ament_index/resource_index/package_run_dependencies/clustering_cpp
+/home/robot/robot_ws/src/install/clustering_cpp/share/ament_index/resource_index/parent_prefix_path/clustering_cpp
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.sh
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.dsv
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/environment/path.sh
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/environment/path.dsv
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/local_setup.bash
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/local_setup.sh
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/local_setup.zsh
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/local_setup.dsv
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.dsv
+/home/robot/robot_ws/src/install/clustering_cpp/share/ament_index/resource_index/packages/clustering_cpp
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig.cmake
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig-version.cmake
+/home/robot/robot_ws/src/install/clustering_cpp/share/clustering_cpp/package.xml

@@ -1,0 +1,10 @@
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Pause.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ClearQueue.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ToggleInteractive.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Clear.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SaveMap.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/LoopClosure.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/MergeMaps.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/AddSubmap.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/DeserializePoseGraph.idl
+/home/robot/robot_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SerializePoseGraph.idl

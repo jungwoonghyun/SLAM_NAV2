@@ -1,0 +1,76 @@
+[0.414s] Invoking command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg
+[0.547s] -- The C compiler identification is GNU 11.4.0
+[0.640s] -- The CXX compiler identification is GNU 11.4.0
+[0.649s] -- Detecting C compiler ABI info
+[0.784s] -- Detecting C compiler ABI info - done
+[0.796s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.796s] -- Detecting C compile features
+[0.797s] -- Detecting C compile features - done
+[0.802s] -- Detecting CXX compiler ABI info
+[1.033s] -- Detecting CXX compiler ABI info - done
+[1.057s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.058s] -- Detecting CXX compile features
+[1.061s] -- Detecting CXX compile features - done
+[1.067s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.498s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.934s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.163s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.215s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.248s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.649s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.657s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.890s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.936s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.165s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.191s] -- Looking for pthread.h
+[3.358s] -- Looking for pthread.h - found
+[3.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.577s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.583s] -- Found Threads: TRUE  
+[4.302s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.633s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.633s] -- Configured cppcheck include dirs: 
+[4.633s] -- Configured cppcheck exclude dirs and/or files: 
+[4.637s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.637s] -- Configured cpplint exclude dirs and/or files: 
+[4.639s] -- Added test 'lint_cmake' to check CMake code style
+[4.645s] -- Added test 'uncrustify' to check C / C++ code style
+[4.645s] -- Configured uncrustify additional arguments: 
+[4.646s] -- Added test 'xmllint' to check XML markup files
+[4.648s] -- Configuring done
+[4.683s] -- Generating done
+[4.693s] -- Build files have been written to: /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg
+[4.711s] Invoked command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg
+[4.718s] Invoking command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg -- -j4 -l4
+[4.932s] [ 25%] [32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o[0m
+[4.976s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o[0m
+[18.584s] [ 75%] [32m[1mLinking CXX executable helloworld_publisher[0m
+[19.230s] [ 75%] Built target helloworld_publisher
+[24.813s] [100%] [32m[1mLinking CXX executable helloworld_subscriber[0m
+[25.766s] [100%] Built target helloworld_subscriber
+[25.811s] Invoked command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg -- -j4 -l4
+[25.904s] Invoking command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg
+[25.933s] -- Install configuration: ""
+[25.933s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_publisher
+[25.944s] -- Set runtime path of "/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_publisher" to ""
+[25.944s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_subscriber
+[25.949s] -- Set runtime path of "/home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_subscriber" to ""
+[25.953s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg
+[25.953s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg
+[25.954s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+[25.960s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+[25.961s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh
+[25.961s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv
+[25.961s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash
+[25.961s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh
+[25.963s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh
+[25.966s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv
+[25.966s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv
+[25.966s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg
+[25.966s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake
+[25.966s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake
+[25.975s] -- Installing: /home/robot/robot_ws/src/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml
+[25.976s] Invoked command in '/home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/build/my_first_ros_rclcpp_pkg
